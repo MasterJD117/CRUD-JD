@@ -1,0 +1,6 @@
+{
+  "ConnectionStrings": {
+    "CrudConnection": "Data Source=DESKTOP-2F8UT6P\\SQLEXPRESS;Initial Catalog=Crud.App;Integrated Security=True"
+  },
+  "ClientDomain": "http://localhost:4200"
+}
