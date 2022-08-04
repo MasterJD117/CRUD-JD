@@ -46,8 +46,8 @@ namespace CRUD.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Failed to get products: {ex}");
-                return BadRequest("Failed to get products");
+                _logger.LogError($"Failed to get clientes: {ex}");
+                return BadRequest("Failed to get clientes");
             }
         }
 
@@ -100,9 +100,9 @@ namespace CRUD.Api.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError($"Failed to save a new Client: {ex}");
+                _logger.LogError($"Failed to save a new cliente: {ex}");
             }
-            return BadRequest("Failed to save new Client");
+            return BadRequest("Failed to save new cliente");
         }
 
         // POST:
